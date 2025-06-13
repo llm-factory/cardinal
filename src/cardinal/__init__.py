@@ -1,4 +1,4 @@
-from .collector import BaseCollector
+from .collector import BaseCollector, ChatCollector
 from .common import (
     AssistantMessage,
     BaseMessage,
@@ -21,6 +21,7 @@ from .vectorstore import AutoVectorStore, AutoCondition
 
 __all__ = [
     "BaseCollector",
+    "ChatCollector"
     "AssistantMessage",
     "BaseMessage",
     "Function",
